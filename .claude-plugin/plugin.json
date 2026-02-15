@@ -1,0 +1,34 @@
+{
+  "name": "cold-start-toolkit",
+  "version": "1.0.0",
+  "description": "Turn a business idea into a validated online presence in ~2 weeks. Automates market research, brand generation, code scaffolding, content creation, and human handoff coordination through 5 specialized agents.",
+  "commands": [
+    {
+      "name": "cold-start",
+      "description": "Launch the Cold-Start Toolkit to bootstrap a business from zero to validated. Accepts an optional idea description.",
+      "file": "../commands/cold-start.md"
+    }
+  ],
+  "agents": [
+    {
+      "name": "orchestrator",
+      "file": "../agents/orchestrator.md"
+    },
+    {
+      "name": "researcher",
+      "file": "../agents/researcher.md"
+    },
+    {
+      "name": "builder",
+      "file": "../agents/builder.md"
+    },
+    {
+      "name": "marketer",
+      "file": "../agents/marketer.md"
+    },
+    {
+      "name": "guide",
+      "file": "../agents/guide.md"
+    }
+  ]
+}
