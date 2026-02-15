@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "cold-start",
-      "source": ".",
+      "source": "./plugins/cold-start",
       "description": "Bootstrap a business from idea to validated online presence. Automates market research, brand generation, code scaffolding, content creation, and human handoff coordination through 5 specialized agents.",
       "version": "1.0.0"
     }
