@@ -1,0 +1,17 @@
+{
+  "name": "cold-start-toolkit",
+  "owner": {
+    "name": "jtsaich"
+  },
+  "metadata": {
+    "description": "Turn a business idea into a validated online presence in ~2 weeks"
+  },
+  "plugins": [
+    {
+      "name": "cold-start",
+      "source": ".",
+      "description": "Bootstrap a business from idea to validated online presence. Automates market research, brand generation, code scaffolding, content creation, and human handoff coordination through 5 specialized agents.",
+      "version": "1.0.0"
+    }
+  ]
+}
